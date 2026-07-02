@@ -57,7 +57,7 @@ body {
     align-items: center;
     text-align: center;
     padding: 70px 20px 0;
-    background-color: #eaf4ff;
+    background-color: #d8dadc;
 }
 
 .hero-content h1 {
@@ -148,4 +148,18 @@ body {
 
 .card:hover {
     transform: translateY(-5px);
+}
+
+.navbar.scrolled {
+    background-color: #007bff;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+.navbar.scrolled .logo h2,
+.navbar.scrolled .nav-links a {
+    color: white;
+}
+
+.navbar.scrolled .nav-links a:hover {
+    color: #ffd43b;
 }
