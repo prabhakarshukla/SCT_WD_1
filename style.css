@@ -193,13 +193,25 @@ footer {
 @media (max-width: 768px) {
 
     .navbar {
-        flex-direction: column;
-        padding: 20px;
+        flex-wrap: wrap;
+        padding: 15px 20px;
+    }
+
+    .menu-toggle {
+        display: block;
     }
 
     .nav-links {
+        display: none;
+        width: 100%;
+        flex-direction: column;
+        text-align: center;
         margin-top: 15px;
-        gap: 20px;
+        gap: 15px;
+    }
+
+    .nav-links.active {
+        display: flex;
     }
 
     .hero-content h1 {
@@ -213,5 +225,13 @@ footer {
     .service-cards {
         grid-template-columns: 1fr;
     }
+}
 
+.menu-toggle {
+    display: none;
+    font-size: 28px;
+    background: none;
+    border: none;
+    cursor: pointer;
+    color: #333;
 }
