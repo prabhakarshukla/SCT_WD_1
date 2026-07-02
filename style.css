@@ -188,3 +188,30 @@ footer {
     text-align: center;
     padding: 20px;
 }
+
+
+@media (max-width: 768px) {
+
+    .navbar {
+        flex-direction: column;
+        padding: 20px;
+    }
+
+    .nav-links {
+        margin-top: 15px;
+        gap: 20px;
+    }
+
+    .hero-content h1 {
+        font-size: 36px;
+    }
+
+    .hero-content p {
+        font-size: 16px;
+    }
+
+    .service-cards {
+        grid-template-columns: 1fr;
+    }
+
+}
