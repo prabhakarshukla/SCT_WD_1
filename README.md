@@ -39,9 +39,8 @@ task-01-responsive-landing-page/
 
 Or, if you're using VS Code, run it with the **Live Server** extension.
 
-## 📸 Preview
+##  Preview
 
-Add a screenshot of your project here after completing it.
 
 ## Internship Task
 
