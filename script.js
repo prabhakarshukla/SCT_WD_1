@@ -16,4 +16,10 @@ menuToggle.addEventListener("click", function () {
 
     navLinks.classList.toggle("active");
 
+    if (navLinks.classList.contains("active")) {
+        menuToggle.textContent = "✕";
+    } else {
+        menuToggle.textContent = "☰";
+    }
+
 });
