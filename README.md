@@ -40,6 +40,9 @@ task-01-responsive-landing-page/
 Or, if you're using VS Code, run it with the **Live Server** extension.
 
 ##  Preview
+<img width="1900" height="971" alt="image" src="https://github.com/user-attachments/assets/9efeaae8-975b-435e-aa38-076ded9e145f" />
+<img width="1896" height="865" alt="image" src="https://github.com/user-attachments/assets/0d60da8f-f946-48c0-b27c-4bc688e11daa" />
+<img width="1897" height="981" alt="image" src="https://github.com/user-attachments/assets/e8f4b04f-85aa-452f-9d24-1ef16bf10288" />
 
 
 ## Internship Task
